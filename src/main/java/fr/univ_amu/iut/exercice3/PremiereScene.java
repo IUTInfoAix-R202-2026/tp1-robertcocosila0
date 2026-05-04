@@ -9,15 +9,10 @@ import javafx.stage.Stage;
 /**
  * Exercice 3 - Première Scene avec un Label.
  *
- * <p>
- * Objectif : au-delà de la fenêtre vide, afficher du contenu. On construit une
- * Scene qui
- * contient un conteneur (BorderPane) dans lequel on place un Label avec un
- * message.
+ * <p>Objectif : au-delà de la fenêtre vide, afficher du contenu. On construit une Scene qui
+ * contient un conteneur (BorderPane) dans lequel on place un Label avec un message.
  *
- * <p>
- * Concepts : {@link javafx.scene.Scene},
- * {@link javafx.scene.layout.BorderPane}, {@link
+ * <p>Concepts : {@link javafx.scene.Scene}, {@link javafx.scene.layout.BorderPane}, {@link
  * javafx.scene.control.Label}.
  */
 public class PremiereScene extends Application {
@@ -30,21 +25,6 @@ public class PremiereScene extends Application {
     Scene scene = new Scene(root);
     primaryStage.setScene(scene);
     primaryStage.show();
-<<<<<<< HEAD
-=======
-  }
-
-  // TODO exercice 3 : afficher un Label au centre d'un BorderPane.
-  //
-  // 1. Créer un BorderPane (le "squelette" de la scène).
-  // 2. Créer un Label avec le texte "Bonjour, JavaFX !".
-  // 3. Placer le label au CENTRE du BorderPane (méthode setCenter).
-  // 4. Construire une Scene à partir du BorderPane.
-  // 5. Attacher la Scene au Stage.
-  // 6. Afficher le Stage.
-  //
-  // Les imports nécessaires sont déjà dans la Javadoc ci-dessus.
->>>>>>> 5325789 (Exercice 3 terminé)
   }
 
   public static void main(String[] args) {
