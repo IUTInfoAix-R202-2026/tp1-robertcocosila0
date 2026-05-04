@@ -88,7 +88,6 @@ class MiseEnPageTest {
 
   // --- Étape 5 : ajouter un GridPane dans la zone center ---
 
-  @Disabled("Retire cette annotation pour activer le test")
   @Test
   void leGridPaneEstAuCentre(FxRobot robot) {
     BorderPane root = (BorderPane) stage.getScene().getRoot();
@@ -99,7 +98,6 @@ class MiseEnPageTest {
 
   // --- Étape 6 : ajouter les labels dans le GridPane ---
 
-  @Disabled("Retire cette annotation pour activer le test")
   @Test
   void lesLabelsNomEtEmailExistent(FxRobot robot) {
     BorderPane root = (BorderPane) stage.getScene().getRoot();
@@ -118,7 +116,6 @@ class MiseEnPageTest {
 
   // --- Étape 7 : ajouter les TextField dans le GridPane ---
 
-  @Disabled("Retire cette annotation pour activer le test")
   @Test
   void lesDeuxChampsDeSaisieExistent(FxRobot robot) {
     BorderPane root = (BorderPane) stage.getScene().getRoot();
@@ -133,7 +130,6 @@ class MiseEnPageTest {
 
   // --- Étape 8 : ajouter un HBox dans la zone bottom ---
 
-  @Disabled("Retire cette annotation pour activer le test")
   @Test
   void leHBoxEstEnBas(FxRobot robot) {
     BorderPane root = (BorderPane) stage.getScene().getRoot();
@@ -144,7 +140,6 @@ class MiseEnPageTest {
 
   // --- Étape 9 : ajouter le bouton Valider ---
 
-  @Disabled("Retire cette annotation pour activer le test")
   @Test
   void leBoutonValiderExiste(FxRobot robot) {
     HBox hbox = hboxEnBas();
@@ -158,7 +153,6 @@ class MiseEnPageTest {
 
   // --- Étape 10 : ajouter le bouton Annuler ---
 
-  @Disabled("Retire cette annotation pour activer le test")
   @Test
   void leBoutonAnnulerExiste(FxRobot robot) {
     HBox hbox = hboxEnBas();
